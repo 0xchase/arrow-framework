@@ -25,8 +25,8 @@
      - Network: graph of all hosts, list of all hosts with attributes
      - Sessions: List of all sessions on hosts
  - Implant is an implant
-   - Can load shellcodes
    - Dynamic library payloads
+   - Executable payloads
    - Webassembly payloads
  - Scanner is a network scanner that uses rustscan
 
