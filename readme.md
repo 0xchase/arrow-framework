@@ -1,5 +1,7 @@
 # Arrow Framework
 
+## Components
+
  - **cli**: Connects and controls the C2 server
  - **server**: A server to catch implant callbacks
  - **implant**: Self explanatory
@@ -7,5 +9,10 @@
  - **scanner**: Uses rustscan in the backend
  - **gui**: A frontend on the C2 library
 
-Run wasm payloads?
+## Design
+ - Cli is a cli interface to the control lib
+ - Control is a library to control the C2 server. Communicates JSON back and forth.
+ - Gui is a GUI library that loads the control library and uses JSON. 
+ - Implant is an implant. Can load shellcodes, rust payloads, and wasm payloads.
+ - Scanner is a network scanner that uses rustscan
 
