@@ -1,0 +1,10 @@
+[workspace]
+
+members = [
+    "cli",
+    "gui",
+    "implant",
+    "payloads",
+    "scanner",
+    "server"
+]
