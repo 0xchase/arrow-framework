@@ -3,7 +3,6 @@
 members = [
     "cli",
     "gui",
-    "client",
     "implant",
     "payloads",
     "scanner",
