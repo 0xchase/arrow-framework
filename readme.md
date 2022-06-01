@@ -29,4 +29,16 @@
    - Executable payloads
    - Webassembly payloads
  - Scanner is a network scanner that uses rustscan
+ - Popup notification when a client connects
 
+### Functionality
+ - Network scanning and host fingerprinting
+ - Display hosts in a useful way
+ - Run exploits against hosts
+ - Display host sessions
+ - Run post-exploitation against hosts
+
+### Views
+ - Network view (graph of network)
+ - Host view (host fingerprint, vuln scan, etc)
+ - Sessions view (all current sessions)
