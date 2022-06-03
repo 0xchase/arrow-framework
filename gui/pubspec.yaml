@@ -30,6 +30,7 @@ dependencies:
   flutter:
     sdk: flutter
   xterm: ^2.6.0
+  graphview: ^1.1.1
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -52,6 +53,12 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  fonts:
+  - family: RobotoMono
+    fonts:
+      - asset: assets/fonts/RobotoMono-Regular.ttf
+      - asset: assets/fonts/RobotoMono-Bold.ttf
+        weight: 400
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
